@@ -70,6 +70,10 @@ And here are the available calls for PerJS.getBroadcastInformation:
 
 ---------------------------------------------------------
 
+__New in PeriscopeJS 1.1:__
+* Greatly improved code
+* Improved minified version
+
 __New in PeriscopeJS 1.0:__
 * Initial release!
 
