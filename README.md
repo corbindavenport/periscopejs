@@ -6,19 +6,19 @@ How to use
 ----------------
 PeriscopeJS is really easy to use. Just link the script in the header of any web page like this:
 
-`<script src="periscopejs.js"></script>`
+`<script src="periscope.js"></script>`
 
 It doesn't need any external libraries like JQuery.
 
-PeriscopeJS has two functions available: perjs.user and perjs.broadcast. You can use perjs.user to retrieve information about a user profile, and perjs.broadcast to retrieve information about a broadcast (live or ended).
+PeriscopeJS has two functions available: PerJS.getUserInformation and PerJS.getBroadcastInformation. You can use PerJS.getUserInformation to retrieve information about a user profile, and PerJS.getBroadcastInformation to retrieve information about a broadcast (live or ended).
 
 For example, to retrieve the display name of a user, you do this:
 
-`perjs.user("corbindavenport", "display_name")`
+`PerJS.getUserInformation('corbindavenport', 'display_name')`
 
 The first parameter is the username, and the second is the property you are requesting. This is true for both functions.
 
-Here is the available calls for perjs.user:
+Here is the available calls for PerJS.getUserInformation:
 
 | Property            | Description                                                                | Example                             |
 |---------------------|----------------------------------------------------------------------------|-------------------------------------|
@@ -36,7 +36,7 @@ Here is the available calls for perjs.user:
 | twitter_screen_name | Twitter username of the Periscope account                                  | corbindavenport                     |
 | updated_at          | The last time the profile was updated                                      | 2016-01-23T12:47:14.596946487-08:00 |
 
-And here are the available calls for perjs.broadcast:
+And here are the available calls for PerJS.getBroadcastInformation:
 
 | Property             | Description                                                        | Example                             |
 |----------------------|--------------------------------------------------------------------|-------------------------------------|
