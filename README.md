@@ -65,8 +65,6 @@ And here are the available calls for PerJS.getBroadcastInformation:
 | twitter_username     | The Twitter username of the user                                   | corbindavenport                     |
 | updated_at           | The time and date the user profile was last updated                | 2016-01-23T12:49:39.005946084-08:00 |
 | user_display_name    | The display name of the user                                       | Corbin Davenport                    |
-|                      |                                                                    |                                     |
-|                      |                                                                    |                                     |
 
 ---------------------------------------------------------
 
